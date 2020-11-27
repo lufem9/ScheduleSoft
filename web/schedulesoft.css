@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+    font-family: Arial;
+    margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+    padding: 10px;
+    text-align: center;
+    background: #2a5c9a;
+    color: white;
+}
+
+/* Style the top navigation bar */
+.navbar {
+    display: flex;
+    background-color: #558dd1;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+    background-color: #e2ecf7;
+    color: black;
+}
+
+/* Column container */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+    flex: 30%;
+    background-color: #8cb1df;
+    padding: 20px;
+}
+
+/* Main column */
+.main {
+    flex: 70%;
+    background-color: #8cb1df;
+    padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+    background-color: #e2ecf7;
+    width: 100%;
+    padding: 20px;
+}
+/* Common column */
+.common {
+    flex: 100%;
+    background-color: #8cb1df;
+    padding: 20px;
+}
+/* Footer */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #234d80;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+    .row, .navbar {
+        flex-direction: column;
+    }
+}
+.box{
+    width:320px;
+    margin: auto;
+    padding:2px 2px 6px 2px;
+}
+
+.email{
+    background:#ecf0f1;
+    border: #ccc 1px solid;
+    border-bottom: #ccc 2px solid;
+    padding: 8px;
+    width:180px;
+    color:#AAAAAA;
+    margin-top:10px;
+    font-size:1em;
+    border-radius:4px;
+}
+
+.btn{
+    background:#3498db;
+    width:80px;
+    padding-top:5px;
+    padding-bottom:5px;
+    color:white;
+    border-radius:4px;
+    border: #27ae60 1px solid;
+
+
+    margin-top:20px;
+    float:left;
+    margin-left:16px;
+    font-weight:800;
+    font-size:0.8em;
+}
+
+.btn:hover{
+    background:#e2ecf7;
+}
+
+#btn2{
+    float:left;
+    background:#3498db;
+    width:60px;
+    padding-top:5px;
+    padding-bottom:5px;
+    color:white;
+    border-radius:4px;
+    border: #2980b9 1px solid;
+
+
+    margin-top:20px;
+    margin-left:10px;
+    font-weight:800;
+    font-size:0.8em;
+}
+
+#btn2:hover{
+    background:#e2ecf7;
+}
+.box2{
+    width:500px;
+    margin: auto;
+    padding:2px 2px 6px 2px;
+}
