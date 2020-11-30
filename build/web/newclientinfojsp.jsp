@@ -1,7 +1,7 @@
 <%--
     Document   : ScheduleAppointment
     Created on : Nov 15, 2020, 11:10:36 PM
-    Author     : Femi
+    Author     : TimeTech Team
 --%>
 <%@page import="Business.*"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
