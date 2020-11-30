@@ -19,7 +19,7 @@ import javax.servlet.http.HttpServletResponse;
 
 /**
  *
- * @author BukayoDan
+ * @author TimeTech Team
  */
 @WebServlet(urlPatterns = {"/entityinforSevlet"})
 public class entityinforSevlet extends HttpServlet {
