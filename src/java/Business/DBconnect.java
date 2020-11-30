@@ -9,7 +9,7 @@ import java.sql.DriverManager;
 import java.sql.SQLException; 
 /**
  *
- * @author BukayoDan
+ * @author TimeTech Team
  * This class can be used to initialize the database connection 
  */
 public class DBconnect 
