@@ -13,7 +13,7 @@ import javax.servlet.http.HttpServletResponse;
 
 /**
  *
- * @author BukayoDan
+ * @author TimeTech Team
  */
 @WebServlet(urlPatterns = {"/AppScheduleSevlet"})
 public class AppScheduleSevlet extends HttpServlet {
